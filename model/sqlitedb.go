@@ -1,8 +1,8 @@
 package model
 
 import (
-	"PanIndex/entity"
 	"fmt"
+	"github.com/libsgh/PanIndex/entity"
 	log "github.com/sirupsen/logrus"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

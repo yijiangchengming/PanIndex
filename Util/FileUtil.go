@@ -1,12 +1,12 @@
 package Util
 
 import (
-	"PanIndex/config"
-	"PanIndex/entity"
 	"archive/zip"
 	"bytes"
 	"fmt"
 	"github.com/bluele/gcache"
+	"github.com/libsgh/PanIndex/config"
+	"github.com/libsgh/PanIndex/entity"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"golang.org/x/text/transform"

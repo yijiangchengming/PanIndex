@@ -1,12 +1,12 @@
 package Util
 
 import (
-	"PanIndex/config"
 	"bufio"
 	"crypto/md5"
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	"github.com/libsgh/PanIndex/config"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/simplifiedchinese"

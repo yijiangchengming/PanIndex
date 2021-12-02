@@ -1,17 +1,17 @@
 package service
 
 import (
-	"PanIndex/Util"
-	"PanIndex/config"
-	"PanIndex/entity"
-	"PanIndex/jobs"
-	"PanIndex/model"
 	"encoding/base64"
 	"errors"
 	"fmt"
 	"github.com/bluele/gcache"
 	"github.com/gin-gonic/gin"
 	jsoniter "github.com/json-iterator/go"
+	"github.com/libsgh/PanIndex/Util"
+	"github.com/libsgh/PanIndex/config"
+	"github.com/libsgh/PanIndex/entity"
+	"github.com/libsgh/PanIndex/jobs"
+	"github.com/libsgh/PanIndex/model"
 	"github.com/libsgh/nic"
 	uuid "github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"

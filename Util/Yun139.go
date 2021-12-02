@@ -1,15 +1,15 @@
 package Util
 
 import (
-	"PanIndex/config"
-	"PanIndex/entity"
-	"PanIndex/model"
 	"bytes"
 	"crypto/md5"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	jsoniter "github.com/json-iterator/go"
+	"github.com/libsgh/PanIndex/config"
+	"github.com/libsgh/PanIndex/entity"
+	"github.com/libsgh/PanIndex/model"
 	"github.com/libsgh/nic"
 	uuid "github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"

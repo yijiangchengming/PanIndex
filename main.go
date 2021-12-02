@@ -1,17 +1,17 @@
 package main
 
 import (
-	"PanIndex/Util"
-	"PanIndex/boot"
-	"PanIndex/config"
-	"PanIndex/entity"
-	"PanIndex/jobs"
-	"PanIndex/service"
 	"flag"
 	"fmt"
 	"github.com/bluele/gcache"
 	"github.com/gin-gonic/gin"
 	"github.com/gobuffalo/packr/v2"
+	"github.com/libsgh/PanIndex/Util"
+	"github.com/libsgh/PanIndex/boot"
+	"github.com/libsgh/PanIndex/config"
+	"github.com/libsgh/PanIndex/entity"
+	"github.com/libsgh/PanIndex/jobs"
+	"github.com/libsgh/PanIndex/service"
 	uuid "github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"
 	"github.com/unrolled/secure"

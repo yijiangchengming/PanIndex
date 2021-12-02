@@ -1,11 +1,11 @@
 package jobs
 
 import (
-	"PanIndex/Util"
-	"PanIndex/config"
-	"PanIndex/entity"
-	"PanIndex/model"
 	"errors"
+	"github.com/libsgh/PanIndex/Util"
+	"github.com/libsgh/PanIndex/config"
+	"github.com/libsgh/PanIndex/entity"
+	"github.com/libsgh/PanIndex/model"
 	"github.com/robfig/cron"
 	log "github.com/sirupsen/logrus"
 	"gorm.io/gorm"

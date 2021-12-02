@@ -1,10 +1,10 @@
 package Util
 
 import (
-	"PanIndex/config"
-	"PanIndex/entity"
-	"PanIndex/model"
 	"github.com/jlaffaye/ftp"
+	"github.com/libsgh/PanIndex/config"
+	"github.com/libsgh/PanIndex/entity"
+	"github.com/libsgh/PanIndex/model"
 	uuid "github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"
 	"io/ioutil"

@@ -1,7 +1,7 @@
 package config
 
 import (
-	"PanIndex/entity"
+	"github.com/libsgh/PanIndex/entity"
 	"os"
 )
 

@@ -1,13 +1,13 @@
 package boot
 
 import (
-	"PanIndex/jobs"
-	"PanIndex/model"
-	"PanIndex/service"
 	"encoding/json"
 	"fmt"
 	"github.com/banzaicloud/logrus-runtime-formatter"
 	"github.com/gin-gonic/gin"
+	"github.com/libsgh/PanIndex/jobs"
+	"github.com/libsgh/PanIndex/model"
+	"github.com/libsgh/PanIndex/service"
 	log "github.com/sirupsen/logrus"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
